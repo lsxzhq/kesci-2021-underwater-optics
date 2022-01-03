@@ -296,4 +296,4 @@ dist_params = dict(backend='nccl')
 log_level = 'INFO'
 load_from = 'data/pretrained/detectors_htc_r50_1x_coco-329b1453.pth'
 resume_from = None
-workflow = [('train', 1)]
+
